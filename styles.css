@@ -1,0 +1,54 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+:root {
+    --Red: #FF0000;
+    --Green: #00FF00;
+    --Blue: #0000FF;
+    --gray: #808080;
+    --Cyan: #00FFFF;
+    --Magenta: #FF00FF;
+    --Yellow: #FFFF00;
+    --Teal: #008080;
+    --Coral: #FF7F50;
+    --Lavender: #E6E6FA;
+    --Forest_Green: #228B22;
+    --Navy_Blue: #000080;
+    --Rose_Gold: #B76E79;
+}
+
+body {
+  font-family: "Mulish", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 100;
+  font-style: normal;
+}
+
+.main {
+    margin: 120px auto 0px;
+    width: 90vw;
+    height: 80vh;
+    border: 1px solid #000;
+    text-align: center;
+    padding: 10px;
+}
+
+input[type="radio"] {
+    display: none;
+}
+
+input[type="radio"]:checked + .pestanas {
+    background-color: #808080;
+}
+
+.pestanas {
+    display: inline-block;
+    border: 1px #000 solid;
+    border-top-right-radius: 10px;
+    height: 25px;
+    width: 70px;
+}
+
