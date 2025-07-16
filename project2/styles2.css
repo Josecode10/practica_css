@@ -1,0 +1,112 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+header {
+    width: 100%;
+    height: 50px;
+    background-color: #d3d3d3;
+}
+
+.header-contenido {
+    position: relative;
+}
+
+.fa-bag-shopping {
+    position: absolute;
+    font-size: xx-large;
+    top: 8px;
+    left: 8px;
+
+}
+
+.header-titulo {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
+
+.main {
+    width: 90vw;
+    height: 90vh;
+    border: 1px solid #d3d3d3;
+    margin: 10px auto 0px;
+    padding: 20px;
+}
+
+input[type="radio"] {
+    display: none;
+}
+
+[type="radio"]:checked + label {
+    background-color: #d3d3d3;
+}
+
+.labels {
+    display: inline-block;
+    text-align: center;
+    border-bottom: none;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    width: 105px;
+    height: 35px;
+    padding-top: 10px;
+}
+
+#tab1::before {
+    font-family: "Font Awesome 6 Free";
+    font-weight: 900;
+    content: "\f02c";
+}
+#tab2::before {
+    font-family: "Font Awesome 6 Free";
+    font-weight: 900;
+    content: "\f007";
+}
+#tab3::before {
+    font-family: "Font Awesome 6 Free";
+    font-weight: 900;
+    content: "\f494";
+}
+#tab4::before {
+    font-family: "Font Awesome 6 Free";
+    font-weight: 900;
+    content: "\f15b";
+}
+#tab5::before {
+    font-family: "Font Awesome 6 Free";
+    font-weight: 900;
+    content: "\f07a";
+}
+#tab6::before {
+    font-family: "Font Awesome 6 Free";
+    font-weight: 900;
+    content: "\f013";
+}
+
+.contenidos {
+    width: 100%;
+    height: 94%;
+    padding: 30px;
+    display: none;
+    background-color: #d3d3d3;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+#tab1:checked ~ #contenido1,
+#tab2:checked ~ #contenido2,
+#tab3:checked ~ #contenido3,
+#tab4:checked ~ #contenido4,
+#tab5:checked ~ #contenido5, 
+#tab6:checked ~ #contenido6 {
+    display: block;
+}
+
