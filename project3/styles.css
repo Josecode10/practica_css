@@ -1,0 +1,46 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+.main {
+    width: 90%;
+    height: 90vh;
+    border: 1px solid #D3D3D3;
+    margin: 30px auto 0px;
+    padding: 10px 30px 0px 30px;
+}
+
+[type="radio"] {
+    display: none;
+}
+
+.radio:checked + .etiqueta {
+    background-color: #D3D3D3;
+}
+
+.contenido {
+    width: 100%;
+    border: #D3D3D3 solid 1px;
+    display: none;
+}
+
+
+
+.contenedor-imagen, .datos {
+    width: 40%;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.imagen {
+    width: 100%;
+    object-fit: cover;
+}
+
+#pestana1:checked ~ #contenido1,
+#pestana2:checked ~ #contenido2,
+#pestana3:checked ~ #contenido3 {
+    display: block;
+}

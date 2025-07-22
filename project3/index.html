@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menu Pestañas</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <main class="main">
+
+        <input type="radio" class="radio" name="pestanas" id="pestana1" checked>
+        <label for="pestana1" class="etiqueta" id="etiqueta1">Inicio</label>
+
+        <input type="radio" class="radio" name="pestanas" id="pestana2">
+        <label for="pestana2" class="etiqueta" id="etiqueta2">Acerca de</label>
+
+        <input type="radio" class="radio" name="pestanas" id="pestana3">
+        <label for="pestana3" class="etiqueta" id="etiqueta3">Contacto</label>
+
+        <div class="contenido" id="contenido1">
+            <h1 class="titulo1">Titulo de inicio</h1>
+            <div class="contenedor-imagen">
+                <img src="images/Copilot_20250722_080500.png" alt="Imagen Inicio" class="imagen">
+            </div>
+            <div class="datos">
+                <ul>
+                    <li><a href="https://copilot.microsoft.com/" target="_blank">Copilot AI</a></li>
+                    <li><a href="https://www.perplexity.ai/" target="_blank">Perplexity AI</a></li>
+                    <li><a href="https://gemini.google.com/app" target="_blank">Gemini AI</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="contenido" id="contenido2">
+            <h1 class="titulo2">Titulo de acerca</h1>
+            <div class="contenedor-imagen">
+                <img src="images/Copilot_20250722_080518.png" alt="Imagen Acerca" class="imagen">
+            </div>
+            <div class="datos">
+                <ul>
+                    <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo, quas?</li>
+                    <li>Lorem ipsum dolor sit amet consectetur adipisicing.</li>
+                    <li>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</li>
+                </ul>
+            </div>
+        </div>
+        <div class="contenido" id="contenido3">
+            <h1 class="titulo3">Titulo de contactanos</h1>
+            <div class="contenedor-imagen">
+                <img src="images/Copilot_20250722_080527.png" alt="Imagen Contactanos" class="imagen">
+            </div>
+            <div class="datos">
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Item</th>
+                            <th>Descripción</th>
+                            <th>Subtotal</th>
+                        </tr>
+                    </thead>
+                    
+                    <tbody>
+                        <tr>
+                            <td>1</td>
+                            <td>Java Bootcamp</td>
+                            <td>$USD 100.00</td>
+                        </tr>
+                        <tr>
+                            <td>2</td>
+                            <td>HTML Crash Course</td>
+                            <td>$USD 30.00</td>
+                        </tr>
+                        <tr>
+                            <td>3</td>
+                            <td>Kotlin from begginer to ninja</td>
+                            <td>$USD 90.00</td>
+                        </tr>
+                    </tbody>
+                    
+                    <tfoot>
+                        <tr>
+                            <td></td>
+                            <td>Subtotal antes de impuestos</td>
+                            <td>$USD 220.00</td>
+                        </tr>
+                    </tfoot>
+                </table>
+
+            </div> 
+            
+        </div>
+
+    </main>
+    
+</body>
+</html>
