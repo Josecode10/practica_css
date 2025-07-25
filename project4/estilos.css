@@ -1,0 +1,147 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+/* Estilos al cuerpo del sitio */
+body {
+    font-family: "Mulish", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 200;
+    font-style: normal;
+    background-color: #D3D3D3;
+    padding: 20px;
+}
+
+/* Estilos al contenedor main */
+main {
+    max-width: 95vw;
+    height: 95vh;
+    background-color: #808080;
+    margin: 0 auto;
+}
+
+/* Estilos al escabezado contenido en main */
+header {
+    position: relative;
+    height: 10%;
+    border-bottom: 1px solid #fff;
+    font-size: 30px;
+    text-align: center;
+    padding-top: 10px;
+}
+
+/* Estilos a iconos en el encabezado */
+#home {
+    color: #000;
+    position: absolute;
+    top: 15px;
+    left: 15px;
+}
+
+
+/* Estilos a iconos en el encabezado */
+#log-in {
+    color: #000;
+    position: absolute;
+    top: 15px;
+    right: 15px;
+}
+
+/* Estilos a iconos en el encabezado */
+.search {
+    position: relative;
+    height: 45px;
+    width: 60%;
+    margin: 0 auto;
+}
+
+/* Estilos a iconos en el encabezado */
+#search {
+    top: 10px;
+    height: 100%;
+    width: 100%;
+    border-radius: 50px;
+    padding-left: 50px;
+}
+
+/* Estilos a iconos en el encabezado */
+.fa-magnifying-glass {
+    position: absolute;
+    color: #808080;
+    top: 15px;
+    left: 9px;
+    font-size: 20px;
+}
+
+/* Estilos a contenedor de las cajas en el cuerpo de main */
+.contenedor-cajas-main {
+    height: 88%;
+    margin: 10px;
+}
+
+/* Estilos a cajas en el cuerpo de main */
+#cajas-main {
+    width: 33%;
+    height: 80%;
+    border: 1px solid #fff;
+    display: inline-block;
+    vertical-align: top;
+}
+
+/* Estilos al menu de pestañas */
+[type="radio"]{
+    display: none;
+}
+
+[type="radio"]:checked + .label {
+    background-color: #fff;
+}
+
+.label {
+    display: inline-block;
+    width: 32%;
+    height: 8%;
+    text-align: center;
+    padding-top: 2%;
+}
+
+.contenidos, .caja2, .caja3 {
+    display: none;
+    padding: 20px;
+    width: 100%;
+    height: 90%;
+    overflow-y: scroll;
+}
+
+#titulo4, #titulo5 {
+    margin: 0px 0px 20px 0px;
+}
+
+.imagen {
+    object-fit: contain;
+    width: 100%;
+    margin: 20px 0px;
+}
+
+#input1:checked ~ #contenido1,
+#input2:checked ~ #contenido2,
+#input3:checked ~ #contenido3 {
+    display: block;
+}
+
+.volver-inicio {
+    padding: 20px 0px 0px 20px;
+}
+
+.contenidos-titulos {
+    margin-bottom: 20px;
+} /* Fin menú de pestañas */
+
+
+
+
+
+
+
